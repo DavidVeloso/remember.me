@@ -1,0 +1,7 @@
+$pdo = new PDO(...);
+$insert = "INSERT INTO `task` (`idTask`, `title`, `description`, `date`) VALUES(:idTask, :title, :description, :date)";
+$pdoStmt = $pdo->prepare($insert);
+$pdoStmt->bindValue(":idTask", NULL);
+$pdoStmt->bindValue(":title", $task->getTitle());
+$pdoStmt->bindValue(":description", $task->getDescription());
+$pdoStmt->bindValue(":date", $task->getDate());$pdoStmt->execute();

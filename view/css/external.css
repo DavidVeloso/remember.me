@@ -1,0 +1,92 @@
+#login{
+	float: right;
+	padding: 5px;
+	margin: 0 auto 0px;
+} 
+
+#login a{
+	width: 60px;
+	height: 19px;
+	margin-top: 5px;
+}
+
+footer{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.navbar-inner{
+	margin-top: 10px;
+}
+
+.login{
+	float: right;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.form-search{
+	float: right;
+	margin: 0;
+}
+
+.icon-bookmark{
+	margin-right: 10px;
+}
+
+.img-polaroid{
+	height: 155px;
+	width: 140px;
+	float: left;
+	margin: 0 15px 10px 0;
+}
+
+.icon-bookmark{
+	color: red;
+}
+
+.form-inline{
+	float: right;
+	margin: 0;
+}
+
+.form-control{
+	margin-top: 5px;
+}
+
+#content {
+	font-family: helvetica, sans-serif;
+	text-align: center;
+	width: 30%;
+	margin: auto;
+	border-radius: 10px;
+}
+
+#content input:not([type=submit]), #content textarea {
+	width:90%;
+}
+
+label{
+	text-align: left;
+	margin-left: 15px;
+}
+
+body{
+	background: #CCCCCC;
+}
+
+.span4{
+	border-radius: 10px;
+	height: 170px;
+	padding: 0 10px 0  15px; 
+	background: #E6E6E6;
+}
+.hero-unit{
+	height: 230px;
+	padding: 20px 20px 40px 40px;
+}
+.wellcome{
+	margin: 10px;
+	font-family: cursive;
+	float: right;	
+}
